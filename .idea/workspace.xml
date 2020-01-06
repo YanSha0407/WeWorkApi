@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fa9b6c7-3cd5-4074-a12f-32f4bc4a2c73" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VxjfQVubZN1D3KBa8NdL9pVH5J" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/server/user/api" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.MemberTest.createMember">
+    <configuration name="MemberTest.cloneMember" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WeWorkApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.Server.Membership.TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Com.Server.Membership.TestCase" />
+      <option name="MAIN_CLASS_NAME" value="Com.Server.Membership.TestCase.MemberTest" />
+      <option name="METHOD_NAME" value="cloneMember" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberTest.createMember" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WeWorkApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.Server.Membership.TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Com.Server.Membership.TestCase" />
+      <option name="MAIN_CLASS_NAME" value="Com.Server.Membership.TestCase.MemberTest" />
+      <option name="METHOD_NAME" value="createMember" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberTest.deleteMembers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WeWorkApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.Server.Membership.TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Com.Server.Membership.TestCase" />
+      <option name="MAIN_CLASS_NAME" value="Com.Server.Membership.TestCase.MemberTest" />
+      <option name="METHOD_NAME" value="deleteMembers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberTest.getUserInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WeWorkApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.Server.Membership.TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Com.Server.Membership.TestCase" />
+      <option name="MAIN_CLASS_NAME" value="Com.Server.Membership.TestCase.MemberTest" />
+      <option name="METHOD_NAME" value="getUserInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberTest.testMustache" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WeWorkApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Com.Server.Membership.TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Com.Server.Membership.TestCase" />
+      <option name="MAIN_CLASS_NAME" value="Com.Server.Membership.TestCase.MemberTest" />
+      <option name="METHOD_NAME" value="testMustache" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.MemberTest.createMember" />
+        <item itemvalue="TestNG.MemberTest.getUserInfo" />
+        <item itemvalue="TestNG.MemberTest.cloneMember" />
+        <item itemvalue="TestNG.MemberTest.testMustache" />
+        <item itemvalue="TestNG.MemberTest.deleteMembers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fa9b6c7-3cd5-4074-a12f-32f4bc4a2c73" name="Default Changelist" comment="" />
+      <created>1578201742754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578201742754</updated>
+    </task>
+    <servers />
+  </component>
+</project>

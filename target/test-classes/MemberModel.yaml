@@ -1,0 +1,16 @@
+methodModel:
+  getUserInfo:
+    query:
+      userid: ${userid}
+    method: get
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/get
+  createMember:
+    query:
+    postBody:
+      userid: ${userid}
+      name: ${name}
+      mobile: ${mobile}
+      department: ${department}
+    method: post
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/create
+

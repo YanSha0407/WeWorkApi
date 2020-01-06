@@ -1,0 +1,44 @@
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userid": "{{userid}}",
+  "name": "{{name}}",
+  "department": [
+    3,
+    1
+  ],
+  "position": "普通员工",
+  "mobile": "{{mobile}}",
+  "gender": "2",
+  "email": "15782058302@qq.com",
+  "avatar": "",
+  "status": 4,
+  "isleader": 0,
+  "extattr": {
+    "attrs": [
+
+    ]
+  },
+  "telephone": "",
+  "enable": 1,
+  "hide_mobile": 0,
+  "order": [
+    0,
+    0
+  ],
+  "external_profile": {
+    "external_attr": [
+
+    ],
+    "external_corp_name": ""
+  },
+  "qr_code": "https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vcbdfc340f32585a5c",
+  "alias": "燕莎",
+  "external_position": "测试",
+  "is_leader_in_dept": [
+    0,
+    0
+  ],
+  "address": "北京市海淀区人民大学",
+  "thumb_avatar": ""
+}
