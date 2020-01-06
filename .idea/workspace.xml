@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fa9b6c7-3cd5-4074-a12f-32f4bc4a2c73" name="Default Changelist" comment="" />
+    <list default="true" id="3fa9b6c7-3cd5-4074-a12f-32f4bc4a2c73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/BaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/BaseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/MemberPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/MemberPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Model/BaseMethodModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Model/BaseMethodModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/MemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/UserClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/UserClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/MemberModel.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/MemberModel.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/MemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/MemberTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +36,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1VxjfQVubZN1D3KBa8NdL9pVH5J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -52,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MemberTest.createMember">
+  <component name="RunManager" selected="TestNG.MemberTest.deleteUser">
     <configuration name="MemberTest.cloneMember" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeWorkApi" />
       <extension name="coverage">
@@ -89,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTest.deleteMembers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberTest.deleteUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeWorkApi" />
       <extension name="coverage">
         <pattern>
@@ -99,7 +114,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Com.Server.Membership.TestCase" />
       <option name="MAIN_CLASS_NAME" value="Com.Server.Membership.TestCase.MemberTest" />
-      <option name="METHOD_NAME" value="deleteMembers" />
+      <option name="METHOD_NAME" value="deleteUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTest.testMustache" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberTest.updateMember" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeWorkApi" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +150,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Com.Server.Membership.TestCase" />
       <option name="MAIN_CLASS_NAME" value="Com.Server.Membership.TestCase.MemberTest" />
-      <option name="METHOD_NAME" value="testMustache" />
+      <option name="METHOD_NAME" value="updateMember" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MemberTest.createMember" />
+        <item itemvalue="TestNG.MemberTest.deleteUser" />
+        <item itemvalue="TestNG.MemberTest.updateMember" />
         <item itemvalue="TestNG.MemberTest.getUserInfo" />
+        <item itemvalue="TestNG.MemberTest.createMember" />
         <item itemvalue="TestNG.MemberTest.cloneMember" />
-        <item itemvalue="TestNG.MemberTest.testMustache" />
-        <item itemvalue="TestNG.MemberTest.deleteMembers" />
       </list>
     </recent_temporary>
   </component>
@@ -165,5 +180,16 @@
       <updated>1578201742754</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

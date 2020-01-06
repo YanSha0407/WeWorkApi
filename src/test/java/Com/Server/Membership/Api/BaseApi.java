@@ -22,7 +22,6 @@ public class BaseApi {
     //  解析yaml文件
     public void resolveYaml(String path){
         String path1 = this.getClass().getResource(path).getPath();
-        System.out.println("path1-------" + path1);
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
         // yaml 解析完成后 类型为自定义 ApiObjectModel
         try {
@@ -38,5 +37,11 @@ public class BaseApi {
             resolveYaml("/MemberModel.yaml");
             methodModel = baseModel.methodModel.get(method);
             return methodModel.run(params);
+    }
+    public Response sendRequest(String method, Object params){
+        // 获取方法对应的步骤数据
+        resolveYaml("/MemberModel.yaml");
+        methodModel = baseModel.methodModel.get(method);
+        return methodModel.run(params);
     }
 }

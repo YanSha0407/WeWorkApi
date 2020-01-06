@@ -19,7 +19,6 @@ public class MemberPo {
      * @return
      */
     public Response getUserInfo(String userid) {
-
         HashMap<String, Object> params = new HashMap<>();
         params.put("userid", userid);
         return BaseApi.getInstance().sendRequest("getUserInfo", params);
@@ -74,9 +73,22 @@ public class MemberPo {
      * @param map
      * @return
      */
+    public Response createMember(HashMap<String, Object> map) {
+
+        return BaseApi.getInstance().sendRequest("createMember",  map);
+
+//        return given().queryParam("access_token", BaseWork.getInstance().getToken())
+//                .contentType(ContentType.JSON)
+//                .body(map)
+//                .when().log().all()
+//                .post("https://qyapi.weixin.qq.com/cgi-bin/user/create")
+//                .then().log().all()
+//                .body("errcode", equalTo(0)).extract().response();
+    }
     public Response createMember(Object map) {
-        System.out.println("map :-------" + map.toString());
-        return BaseApi.getInstance().sendRequest("createMember", (HashMap<String, Object>) map);
+
+        return BaseApi.getInstance().sendRequest("cloneMember",  map);
+
 //        return given().queryParam("access_token", BaseWork.getInstance().getToken())
 //                .contentType(ContentType.JSON)
 //                .body(map)
@@ -101,6 +113,10 @@ public class MemberPo {
                 .post("https://qyapi.weixin.qq.com/cgi-bin/user/update")
                 .then().log().all()
                 .body("errcode", equalTo(0)).extract().response();
+    }
+
+    public Response deleteUser(HashMap<String, Object> params){
+        return BaseApi.getInstance().sendRequest("deleteUser", params);
     }
 
 }

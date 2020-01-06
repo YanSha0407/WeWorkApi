@@ -13,4 +13,15 @@ methodModel:
       department: ${department}
     method: post
     url: https://qyapi.weixin.qq.com/cgi-bin/user/create
+  cloneMember:
+    query:
+    postBody:
+    method: post
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/create
+  deleteUser:
+    query:
+      userid: ${userid}
+    method: get
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/delete
+
 

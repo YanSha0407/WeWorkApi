@@ -8,7 +8,6 @@ import java.util.HashMap;
 
 public class UserClone {
     public static String template(String path, HashMap<String,Object> map){
-        System.out.println("path --------" + UserClone.class.getResource(path).getPath());
         Writer writer = new OutputStreamWriter(System.out);
         MustacheFactory mf = new DefaultMustacheFactory();
         Mustache mustache = mf.compile(UserClone.class.getResource(path).getPath());

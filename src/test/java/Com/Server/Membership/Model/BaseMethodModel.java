@@ -19,6 +19,12 @@ public class BaseMethodModel {
     public String method;
     public String url;
 
+
+    /**
+     * 非模板 传参
+     * @param params
+     * @return
+     */
     public Response run(HashMap<String, Object> params) {
         this.params = params;
         RequestSpecification request = given();
@@ -75,6 +81,38 @@ public class BaseMethodModel {
                 .extract().response();
     }
 
+    /**
+     * 模板克隆使用此方法
+     * @param params
+     * @return
+     */
+    public Response run(Object params) {
+        RequestSpecification request = given();
+        request.queryParam("access_token", BaseWork.getInstance().getToken());
+        if (query != null) {
+            query.entrySet().forEach(entry -> {
+                request.queryParam(entry.getKey(), replaceValue(entry.getValue().toString()));
+            });
+        }
+        if (header != null) {
+            header.entrySet().forEach(entry -> {
+                request.header(entry.getKey(), replaceValue(entry.getValue().toString()));
+            });
+        }
+        request.contentType(ContentType.JSON);
+        request.body(params);
+        return request
+                .when().log().all()
+                .request(method, url)
+                .then().log().all()
+                .extract().response();
+    }
+
+    /**
+     * 替换yaml文件中的参数
+     * @param yamlParam
+     * @return
+     */
     public String replaceValue(String yamlParam) {
         // 循环替换yaml文件中需要传入的参数
         for (Map.Entry<String, Object> kv : params.entrySet()) {
