@@ -10,7 +10,7 @@
   "position": "普通员工",
   "mobile": "{{mobile}}",
   "gender": "2",
-  "email": "15782058302@qq.com",
+  "email": "{{email}}",
   "avatar": "",
   "status": 4,
   "isleader": 0,

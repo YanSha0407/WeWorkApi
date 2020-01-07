@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fa9b6c7-3cd5-4074-a12f-32f4bc4a2c73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/MemberPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/MemberPo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Model/BaseMethodModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Model/BaseMethodModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/MemberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/UserClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/UserClone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Member.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Member.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/MemberModel.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/MemberModel.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Api/BaseApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Api/BaseApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Api/MemberPo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Api/MemberPo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Model/BaseMethodModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Model/BaseMethodModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/MemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/MemberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/UserClone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/UserClone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MemberModel.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MemberModel.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Member.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Member.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578308634466</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加更新用户 获取部门成员 数据驱动">
+      <created>1578368446639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578368446639</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数据驱动" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据驱动" />
+    <MESSAGE value="添加更新用户 获取部门成员 数据驱动" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加更新用户 获取部门成员 数据驱动" />
   </component>
 </project>
