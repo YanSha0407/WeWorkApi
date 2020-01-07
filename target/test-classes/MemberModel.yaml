@@ -1,9 +1,17 @@
 methodModel:
+#   获取用户信息
   getUserInfo:
     query:
       userid: ${userid}
     method: get
     url: https://qyapi.weixin.qq.com/cgi-bin/user/get
+#   获取部门成员
+  getDepartmentMember:
+    query:
+      department_id: ${department_id}
+    method: get
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/simplelist
+#  简单创建用户
   createMember:
     query:
     postBody:
@@ -13,4 +21,34 @@ methodModel:
       department: ${department}
     method: post
     url: https://qyapi.weixin.qq.com/cgi-bin/user/create
+#  使用模板创建用户
+  cloneMember:
+    query:
+    postBody:
+    method: post
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/create
+#   更新用户信息
+  updateMember:
+    query:
+    postBody:
+      userid: ${userid}
+      name: ${name}
+      mobile: ${mobile}
+    method: post
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/update
+#    删除用户
+  deleteUser:
+    query:
+      userid: ${userid}
+    method: get
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/delete
+#    批量删除成员
+  deleteMembers:
+    query:
+    postBody:
+      useridlist: ${useridlist}
+    method: get
+    url: https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete
+
+
 

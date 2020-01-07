@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fa9b6c7-3cd5-4074-a12f-32f4bc4a2c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/BaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/BaseApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/MemberPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Api/MemberPo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Model/BaseMethodModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/Model/BaseMethodModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/MemberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/UserClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Com/Server/Membership/TestCase/UserClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Member.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Member.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/MemberModel.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/MemberModel.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Api/BaseApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Api/BaseApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Api/MemberPo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Api/MemberPo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Model/BaseMethodModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/Model/BaseMethodModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/MemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/MemberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/UserClone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Com/Server/Membership/TestCase/UserClone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MemberModel.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MemberModel.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MemberTest.deleteUser">
+  <component name="RunManager" selected="TestNG.MemberTest.deleteMembers">
     <configuration name="MemberTest.cloneMember" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeWorkApi" />
       <extension name="coverage">
@@ -86,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTest.createMember" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberTest.deleteMembers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeWorkApi" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +100,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Com.Server.Membership.TestCase" />
       <option name="MAIN_CLASS_NAME" value="Com.Server.Membership.TestCase.MemberTest" />
-      <option name="METHOD_NAME" value="createMember" />
+      <option name="METHOD_NAME" value="deleteMembers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTest.getUserInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberTest.getDepartmentMember" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeWorkApi" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +136,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Com.Server.Membership.TestCase" />
       <option name="MAIN_CLASS_NAME" value="Com.Server.Membership.TestCase.MemberTest" />
-      <option name="METHOD_NAME" value="getUserInfo" />
+      <option name="METHOD_NAME" value="getDepartmentMember" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MemberTest.deleteUser" />
+        <item itemvalue="TestNG.MemberTest.deleteMembers" />
         <item itemvalue="TestNG.MemberTest.updateMember" />
-        <item itemvalue="TestNG.MemberTest.getUserInfo" />
-        <item itemvalue="TestNG.MemberTest.createMember" />
+        <item itemvalue="TestNG.MemberTest.getDepartmentMember" />
         <item itemvalue="TestNG.MemberTest.cloneMember" />
+        <item itemvalue="TestNG.MemberTest.deleteUser" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +183,14 @@
       <option name="presentableId" value="Default" />
       <updated>1578201742754</updated>
     </task>
+    <task id="LOCAL-00001" summary="数据驱动">
+      <created>1578308634466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578308634466</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,5 +203,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据驱动" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据驱动" />
   </component>
 </project>

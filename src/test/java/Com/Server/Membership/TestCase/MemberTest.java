@@ -43,7 +43,7 @@ public class MemberTest {
         list.add("13001277888");
         HashMap<String, Object> map = new HashMap<>();
         map.put("useridlist", list);
-        user.deleteMembers(map);
+        user.deleteMembers(map).then().body("errcode", equalTo(0));
     }
 
     /**
@@ -88,6 +88,7 @@ public class MemberTest {
         map.put("userid", userID);
         map.put("name", name);
         map.put("mobile", mobile);
+        map.put("email", mobile + "@qq.com");
         user.createMember(
                 UserClone.template("/Member.json",map)
         ).then().body("errcode", equalTo(0));

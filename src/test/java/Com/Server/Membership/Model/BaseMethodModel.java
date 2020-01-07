@@ -67,9 +67,14 @@ public class BaseMethodModel {
 
                    */
                 map.put(entry.getKey(), replaceValue(entry.getValue().toString()));
-                map.remove("department");
-                map.put("department", params.get("department"));
-
+                if (map.containsKey("department")){
+                    map.remove("department");
+                    map.put("department", params.get("department"));
+                }
+                if (map.containsKey("useridlist")){
+                    map.remove("useridlist");
+                    map.put("useridlist", params.get("useridlist"));
+                }
             });
             System.out.println("map" + map);
             request.body(map);

@@ -3,10 +3,7 @@ package Com.Server.Membership.Api;
 import Com.Server.Base.BaseWork;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
@@ -23,8 +20,8 @@ public class MemberPo {
         params.put("userid", userid);
         return BaseApi.getInstance().sendRequest("getUserInfo", params);
 
-        // 没有数据驱动代码
        /*
+       // 没有数据驱动代码
        return given().queryParam("access_token", BaseWork.getInstance().getToken())
                 .queryParam("userid", userid)
                 .when().log().all()
@@ -32,7 +29,6 @@ public class MemberPo {
                 .then().log().all()
                 .body("errcode", equalTo(0)).extract().response();
         */
-
 
     }
 
@@ -43,12 +39,20 @@ public class MemberPo {
      * @return
      */
     public Response getDepartmentMember(String department_id) {
+        HashMap<String, Object> params = new HashMap<>();
+        params.put("department_id", department_id);
+        return BaseApi.getInstance().sendRequest("getDepartmentMember",params );
+
+        /*
+        // 没有数据驱动代码
         return given().queryParam("access_token", BaseWork.getInstance().getToken())
                 .queryParam("department_id", department_id)
                 .when().log().all()
                 .get("https://qyapi.weixin.qq.com/cgi-bin/user/simplelist")
                 .then().log().all()
                 .body("errcode", equalTo(0)).extract().response();
+
+         */
     }
 
     /**
@@ -58,6 +62,9 @@ public class MemberPo {
      * @return
      */
     public Response deleteMembers(HashMap<String, Object> map) {
+        return BaseApi.getInstance().sendRequest("deleteMembers",map);
+
+        /*
         return given().queryParam("access_token", BaseWork.getInstance().getToken())
                 .contentType(ContentType.JSON)
                 .body(map)
@@ -65,6 +72,8 @@ public class MemberPo {
                 .post("https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete")
                 .then().log().all()
                 .body("errcode", equalTo(0)).extract().response();
+
+         */
     }
 
     /**
@@ -75,27 +84,35 @@ public class MemberPo {
      */
     public Response createMember(HashMap<String, Object> map) {
 
-        return BaseApi.getInstance().sendRequest("createMember",  map);
+        return BaseApi.getInstance().sendRequest("createMember", map);
 
-//        return given().queryParam("access_token", BaseWork.getInstance().getToken())
-//                .contentType(ContentType.JSON)
-//                .body(map)
-//                .when().log().all()
-//                .post("https://qyapi.weixin.qq.com/cgi-bin/user/create")
-//                .then().log().all()
-//                .body("errcode", equalTo(0)).extract().response();
+        /*
+       // 没有数据驱动代码
+        return given().queryParam("access_token", BaseWork.getInstance().getToken())
+                .contentType(ContentType.JSON)
+                .body(map)
+                .when().log().all()
+                .post("https://qyapi.weixin.qq.com/cgi-bin/user/create")
+                .then().log().all()
+                .body("errcode", equalTo(0)).extract().response();
+
+         */
     }
+
     public Response createMember(Object map) {
 
-        return BaseApi.getInstance().sendRequest("cloneMember",  map);
+        return BaseApi.getInstance().sendRequest("cloneMember", map);
 
-//        return given().queryParam("access_token", BaseWork.getInstance().getToken())
-//                .contentType(ContentType.JSON)
-//                .body(map)
-//                .when().log().all()
-//                .post("https://qyapi.weixin.qq.com/cgi-bin/user/create")
-//                .then().log().all()
-//                .body("errcode", equalTo(0)).extract().response();
+        /*
+        // 没有数据驱动代码
+        return given().queryParam("access_token", BaseWork.getInstance().getToken())
+                .contentType(ContentType.JSON)
+                .body(map)
+                .when().log().all()
+                .post("https://qyapi.weixin.qq.com/cgi-bin/user/create")
+                .then().log().all()
+                .body("errcode", equalTo(0)).extract().response();
+         */
     }
 
     /**
@@ -105,6 +122,10 @@ public class MemberPo {
      * @return
      */
     public Response updateMember(Object map) {
+
+        return BaseApi.getInstance().sendRequest("updateMember",map);
+        /*
+        // 没有数据驱动代码
         System.out.println("map :-------" + map.toString());
         return given().queryParam("access_token", BaseWork.getInstance().getToken())
                 .contentType(ContentType.JSON)
@@ -113,9 +134,11 @@ public class MemberPo {
                 .post("https://qyapi.weixin.qq.com/cgi-bin/user/update")
                 .then().log().all()
                 .body("errcode", equalTo(0)).extract().response();
+
+         */
     }
 
-    public Response deleteUser(HashMap<String, Object> params){
+    public Response deleteUser(HashMap<String, Object> params) {
         return BaseApi.getInstance().sendRequest("deleteUser", params);
     }
 
